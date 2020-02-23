@@ -110,7 +110,7 @@ namespace Coolite.Ext.Web
         /// Show this window in the viewport when the Page loads.
         /// </summary>
         [Category("Config Options")]
-        [DefaultValue(true)]
+        [DefaultValue(false)]
         [Description("Show this window in the viewport when the Page loads.")]
         public virtual bool ShowOnLoad
         {
