@@ -1,0 +1,34 @@
+﻿.namespace-icon
+{
+	background-image:url(../images/namespace.gif) !important;
+}
+
+.class-icon
+{
+	background-image:url(../images/class.gif) !important;
+}
+
+.interface-icon
+{
+	background-image:url(../images/interface.gif) !important;
+}
+
+.enum-icon
+{
+	background-image:url(../images/enum.gif) !important;
+}
+
+.delegate-icon
+{
+	background-image:url(../images/delegate.gif) !important;
+}
+
+.struct-icon
+{
+	background-image:url(../images/struct.gif) !important;
+}
+
+.method-icon
+{
+	background-image:url(../images/method.gif) !important;
+}

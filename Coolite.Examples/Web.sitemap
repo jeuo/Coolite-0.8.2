@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode title="Examples">
+    <siteMapNode title="Getting Started">
+      <siteMapNode title="Introduction">
+        <siteMapNode title="Icon Summary" description="Summary of all Icons included with the Coolite Toolkit" url="~/Examples/Getting_Started/Introduction/Icon_Summary/" />
+        <siteMapNode title="Overview" description="Getting started with the Coolite Toolkit. Download, Project Setup and Hello World." url="~/Examples/Getting_Started/Introduction/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Events&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="AjaxEvents">
+        <siteMapNode title="Overview" description="Add AjaxEvents to fire server-side Events via simple lightweight AJAX requests." url="~/Examples/Events/AjaxEvents/Overview/" />
+        <siteMapNode title="WebService" description="No description" url="~/Examples/Events/AjaxEvents/WebService/" />
+      </siteMapNode>
+      <siteMapNode title="AjaxMethods&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Advanced&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Events/AjaxMethods/Advanced/" />
+        <siteMapNode title="ID Mode&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Events/AjaxMethods/ID_Mode/" />
+        <siteMapNode title="Overview" description="Call server-side code using client-side JavaScript by just setting the [AjaxMethod] Attribute." url="~/Examples/Events/AjaxMethods/Overview/" />
+      </siteMapNode>
+      <siteMapNode title="Listeners">
+        <siteMapNode title="Overview" description="Add Click Listener to Button (or any Coolite/Ext Control)" url="~/Examples/Events/Listeners/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Buttons&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="ImageButton&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Buttons/Basic/ImageButton/" />
+        <siteMapNode title="LinkButton&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Buttons/Basic/LinkButton/" />
+        <siteMapNode title="Overview" description="No description" url="~/Examples/Buttons/Basic/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="ColorPalete&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Custom Colors&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/ColorPalete/Basic/Custom_Colors/" />
+        <siteMapNode title="Custom View&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/ColorPalete/Basic/Custom_View/" />
+        <siteMapNode title="Overview&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/ColorPalete/Basic/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="DataView">
+      <siteMapNode title="Advanced">
+        <siteMapNode title="Overview" description="This example shows loading a DataView in a Window." url="~/Examples/DataView/Advanced/Overview/" />
+      </siteMapNode>
+      <siteMapNode title="Basic">
+        <siteMapNode title="Overview" description="This example shows how to use a DataView" url="~/Examples/DataView/Basic/Overview/" />
+        <siteMapNode title="With Paging" description="This example shows how to use a DataView with paging" url="~/Examples/DataView/Basic/With_Paging/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Desktop">
+      <siteMapNode title="Introduction">
+        <siteMapNode title="Overview" description="Mimics an operating system with support for multi-windows, task bar and start menu." url="~/Examples/Desktop/Introduction/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Editor&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Overview&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Editor/Basic/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Form&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="ComboBox&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Ajax Linked Combos" description="This example shows how to create linked comboboxes with ajax." url="~/Examples/Form/ComboBox/Ajax_Linked_Combos/" />
+        <siteMapNode title="Custom Drop Down List" description="This example shows a combobox with template" url="~/Examples/Form/ComboBox/Custom_Drop_Down_List/" />
+        <siteMapNode title="Custom Search" description="This is a more advanced example that shows how you can combine paging and Template." url="~/Examples/Form/ComboBox/Custom_Search/" />
+        <siteMapNode title="Items Actions&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Form/ComboBox/Items_Actions/" />
+        <siteMapNode title="Linked ComboBoxes" description="This example shows how to create linked comboboxes." url="~/Examples/Form/ComboBox/Linked_ComboBoxes/" />
+        <siteMapNode title="Overview" description="This example shows basic properties of comboboxes" url="~/Examples/Form/ComboBox/Overview/" />
+        <siteMapNode title="TriggerButtons" description="No description" url="~/Examples/Form/ComboBox/TriggerButtons/" />
+      </siteMapNode>
+      <siteMapNode title="DateField">
+        <siteMapNode title="From-To Range" description="No description" url="~/Examples/Form/DateField/From-To_Range/" />
+      </siteMapNode>
+      <siteMapNode title="FileUploadField&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Form/FileUploadField/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="FormPanel&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Form/FormPanel/Basic/" />
+        <siteMapNode title="Validation&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Form/FormPanel/Validation/" />
+      </siteMapNode>
+      <siteMapNode title="Groups">
+        <siteMapNode title="Basic" description="No description" url="~/Examples/Form/Groups/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="HyperLink&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Form/HyperLink/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="Label&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Form/Label/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="Miscellaneous&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Edit Form View&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Form/Miscellaneous/Edit_Form_View/" />
+        <siteMapNode title="Form View&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Form/Miscellaneous/Form_View/" />
+      </siteMapNode>
+      <siteMapNode title="MultiSelect">
+        <siteMapNode title="Overview" description="No description" url="~/Examples/Form/MultiSelect/Overview/" />
+      </siteMapNode>
+      <siteMapNode title="TimeField&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Overview&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Form/TimeField/Overview/" />
+      </siteMapNode>
+      <siteMapNode title="TriggerField&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Custom Icon&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Form/TriggerField/Custom_Icon/" />
+        <siteMapNode title="Overview" description="No description" url="~/Examples/Form/TriggerField/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="GridPanel&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="ArrayGrid">
+        <siteMapNode title="ArrayWithPaging" description="Demonstrates how to create a grid from Array data with Paging and Remote reloading." url="~/Examples/GridPanel/ArrayGrid/ArrayWithPaging/" />
+        <siteMapNode title="Simple" description="Demonstrates how to create a grid from Array data" url="~/Examples/GridPanel/ArrayGrid/Simple/" />
+      </siteMapNode>
+      <siteMapNode title="ColumnModel">
+        <siteMapNode title="Ajax Configuration" description="No description" url="~/Examples/GridPanel/ColumnModel/Ajax_Configuration/" />
+        <siteMapNode title="Reconfigure" description="No description" url="~/Examples/GridPanel/ColumnModel/Reconfigure/" />
+      </siteMapNode>
+      <siteMapNode title="Commands&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Basic Row Command&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Commands/Basic_Row_Command/" />
+        <siteMapNode title="Cell Command&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Commands/Cell_Command/" />
+        <siteMapNode title="Group Command&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Commands/Group_Command/" />
+        <siteMapNode title="Image Command&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Commands/Image_Command/" />
+        <siteMapNode title="Menu Row Command&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Commands/Menu_Row_Command/" />
+        <siteMapNode title="Prepare Toolbar&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Commands/Prepare_Toolbar/" />
+      </siteMapNode>
+      <siteMapNode title="DataSource Controls">
+        <siteMapNode title="LinqDataSource" description="Demonstrates how to get data using LinqDataSource." url="~/Examples/GridPanel/DataSource_Controls/LinqDataSource/" />
+        <siteMapNode title="ObjectDataSource" description="Demonstrates how to get data using ObjectDataSource." url="~/Examples/GridPanel/DataSource_Controls/ObjectDataSource/" />
+        <siteMapNode title="Paging and Sorting" description="Demonstrates how to get data using ObjectDataSource with paging and sorting." url="~/Examples/GridPanel/DataSource_Controls/Paging_and_Sorting/" />
+        <siteMapNode title="SqlDataSource" description="Demonstrates how to get data using SqlDataSource." url="~/Examples/GridPanel/DataSource_Controls/SqlDataSource/" />
+        <siteMapNode title="XmlDataSource" description="Demonstrates how to get data using XmlDataSource." url="~/Examples/GridPanel/DataSource_Controls/XmlDataSource/" />
+      </siteMapNode>
+      <siteMapNode title="DataSource Update">
+        <siteMapNode title="SqlDataSource" description="Demonstrates how to save data using SqlDataSource." url="~/Examples/GridPanel/DataSource_Update/SqlDataSource/" />
+      </siteMapNode>
+      <siteMapNode title="Data Representation&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Data Prepare&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Data_Representation/Data_Prepare/" />
+        <siteMapNode title="Editor Field Mapping&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Data_Representation/Editor_Field_Mapping/" />
+        <siteMapNode title="Field Converter&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Data_Representation/Field_Converter/" />
+        <siteMapNode title="Field Mapping&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Data_Representation/Field_Mapping/" />
+      </siteMapNode>
+      <siteMapNode title="Data with Details">
+        <siteMapNode title="Form Details" description="This example shows master-details concept." url="~/Examples/GridPanel/Data_with_Details/Form_Details/" />
+        <siteMapNode title="One-to-Many" description="This example shows master-slave grids concept." url="~/Examples/GridPanel/Data_with_Details/One-to-Many/" />
+      </siteMapNode>
+      <siteMapNode title="Layout">
+        <siteMapNode title="FitLayout" description="Demonstrates using the GridPanel inside a Window with FitLayout" url="~/Examples/GridPanel/Layout/FitLayout/" />
+      </siteMapNode>
+      <siteMapNode title="Miscellaneous&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Custom Column" description="Grid with Custom Column and Force Fit." url="~/Examples/GridPanel/Miscellaneous/Custom_Column/" />
+        <siteMapNode title="Details Window" description="This example shows how to create a custom window for a record editing" url="~/Examples/GridPanel/Miscellaneous/Details_Window/" />
+        <siteMapNode title="Details Window Remote" description="This example shows how to create a custom window for a record editing (ajax version)" url="~/Examples/GridPanel/Miscellaneous/Details_Window_Remote/" />
+        <siteMapNode title="Export Data Ajax" description="No description" url="~/Examples/GridPanel/Miscellaneous/Export_Data_Ajax/" />
+        <siteMapNode title="Export Data PostBack" description="No description" url="~/Examples/GridPanel/Miscellaneous/Export_Data_PostBack/" />
+        <siteMapNode title="Generic List" description="This example shows how to populate a GridPanel with data from a List of objects." url="~/Examples/GridPanel/Miscellaneous/Generic_List/" />
+        <siteMapNode title="Grouping" description="A basic grouping grid showing collapsible data groups that can be customized via the &quot;Group By&quot; header menu option." url="~/Examples/GridPanel/Miscellaneous/Grouping/" />
+        <siteMapNode title="Json Reader" description="AJAX request to HttpHander returns Json." url="~/Examples/GridPanel/Miscellaneous/Json_Reader/" />
+        <siteMapNode title="Marking Records" description="This example shows how to select the records by color, depending on their states" url="~/Examples/GridPanel/Miscellaneous/Marking_Records/" />
+        <siteMapNode title="Numbered Rows" description="Grid with Numbered Rows and Force Fit." url="~/Examples/GridPanel/Miscellaneous/Numbered_Rows/" />
+        <siteMapNode title="ScriptTag Proxy" description="Cross-domain data loading." url="~/Examples/GridPanel/Miscellaneous/ScriptTag_Proxy/" />
+        <siteMapNode title="Submit to Handler" description="No description" url="~/Examples/GridPanel/Miscellaneous/Submit_to_Handler/" />
+        <siteMapNode title="Submit Two Grids&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/Miscellaneous/Submit_Two_Grids/" />
+        <siteMapNode title="Table Grid" description="From Markup Grid Example." url="~/Examples/GridPanel/Miscellaneous/Table_Grid/" />
+        <siteMapNode title="Two Grids" description="No description" url="~/Examples/GridPanel/Miscellaneous/Two_Grids/" />
+        <siteMapNode title="Xml File Loading" description="This example shows how to load data from xml file directly." url="~/Examples/GridPanel/Miscellaneous/Xml_File_Loading/" />
+      </siteMapNode>
+      <siteMapNode title="MultiHeader&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Filter&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/MultiHeader/Filter/" />
+        <siteMapNode title="Overview&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/GridPanel/MultiHeader/Overview/" />
+      </siteMapNode>
+      <siteMapNode title="Plugins">
+        <siteMapNode title="GridFilters Local" description="Grid plugins providing custom data filtering menus that support various data types." url="~/Examples/GridPanel/Plugins/GridFilters_Local/" />
+        <siteMapNode title="GridFilters Remote" description="Grid plugins providing custom data filtering menus that support various data types." url="~/Examples/GridPanel/Plugins/GridFilters_Remote/" />
+        <siteMapNode title="GroupingSummary" description="Using a GridPanel with the GroupingSummary Plugin in conjunction with the GroupingSummaryColumn." url="~/Examples/GridPanel/Plugins/GroupingSummary/" />
+        <siteMapNode title="RowExpander Local" description="Expander Rows, Collapse and Force Fit." url="~/Examples/GridPanel/Plugins/RowExpander_Local/" />
+        <siteMapNode title="RowExpander Remote" description="Expander Rows with server side template, Collapse and Force Fit." url="~/Examples/GridPanel/Plugins/RowExpander_Remote/" />
+        <siteMapNode title="Selection Memory" description="No description" url="~/Examples/GridPanel/Plugins/Selection_Memory/" />
+        <siteMapNode title="Sliding Pager" description="Sliding Pager and Panel Resizer Extensions" url="~/Examples/GridPanel/Plugins/Sliding_Pager/" />
+      </siteMapNode>
+      <siteMapNode title="Selection Models">
+        <siteMapNode title="Cell Selection" description="This example shows a cell selection model" url="~/Examples/GridPanel/Selection_Models/Cell_Selection/" />
+        <siteMapNode title="Checkbox Selection" description="Demonstrates using the CheckboxSelectionModel to select GridPanel rows." url="~/Examples/GridPanel/Selection_Models/Checkbox_Selection/" />
+        <siteMapNode title="Row Selection" description="This example shows a row selection model" url="~/Examples/GridPanel/Selection_Models/Row_Selection/" />
+        <siteMapNode title="Submitting Values" description="This example shows how to submit values of selected rows to server" url="~/Examples/GridPanel/Selection_Models/Submitting_Values/" />
+      </siteMapNode>
+      <siteMapNode title="WebService Connections">
+        <siteMapNode title="Confirmation" description="Demonstrates how to get data from web-service and save usin HttpHandler with Confirmation List." url="~/Examples/GridPanel/WebService_Connections/Confirmation/" />
+        <siteMapNode title="HandlerUsing" description="Demonstrates how to get data from web-service and save using HttpHandler." url="~/Examples/GridPanel/WebService_Connections/HandlerUsing/" />
+        <siteMapNode title="ServiceUsing" description="Demonstrates how to get data from web-service and save using HttpHandler." url="~/Examples/GridPanel/WebService_Connections/ServiceUsing/" />
+        <siteMapNode title="StoreCustomLogic" description="Demonstrates how to get data from web-service and save using Store (with custom logic)." url="~/Examples/GridPanel/WebService_Connections/StoreCustomLogic/" />
+        <siteMapNode title="StoreEvents" description="Demonstrates how to get data from web-service and save using Store (with Store events)." url="~/Examples/GridPanel/WebService_Connections/StoreEvents/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Keys">
+      <siteMapNode title="KeyMap">
+        <siteMapNode title="BorderLayout Regions Toggle" description="No description" url="~/Examples/Keys/KeyMap/BorderLayout_Regions_Toggle/" />
+      </siteMapNode>
+      <siteMapNode title="KeyNav">
+        <siteMapNode title="Basic" description="No description" url="~/Examples/Keys/KeyNav/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="Panel Keys">
+        <siteMapNode title="Grid Rows Delete" description="No description" url="~/Examples/Keys/Panel_Keys/Grid_Rows_Delete/" />
+        <siteMapNode title="Window Size" description="No description" url="~/Examples/Keys/Panel_Keys/Window_Size/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Layout&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="AbsoluteLayout&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Absolute Layout Form&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Layout/AbsoluteLayout/Absolute_Layout_Form/" />
+        <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Layout/AbsoluteLayout/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="Accordion">
+        <siteMapNode title="Basic in CodeBehind" description="Accordion Layout Control with TreePanel in a Window, all built dynamically within Code-Behind." url="~/Examples/Layout/Accordion/Basic_in_CodeBehind/" />
+        <siteMapNode title="Basic in Markup" description="Accordion Layout Control with TreePanel in a Window, all built inline using markup." url="~/Examples/Layout/Accordion/Basic_in_Markup/" />
+      </siteMapNode>
+      <siteMapNode title="AnchorLayout&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Anchor With Form&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Layout/AnchorLayout/Anchor_With_Form/" />
+        <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Layout/AnchorLayout/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="BorderLayout">
+        <siteMapNode title="Collapsed Region Image" description="No description" url="~/Examples/Layout/BorderLayout/Collapsed_Region_Image/" />
+        <siteMapNode title="Complex in CodeBehind" description="No description" url="~/Examples/Layout/BorderLayout/Complex_in_CodeBehind/" />
+        <siteMapNode title="Complex in Markup" description="No description" url="~/Examples/Layout/BorderLayout/Complex_in_Markup/" />
+        <siteMapNode title="Simple in CodeBehind" description="No description" url="~/Examples/Layout/BorderLayout/Simple_in_CodeBehind/" />
+        <siteMapNode title="Simple in Markup" description="No description" url="~/Examples/Layout/BorderLayout/Simple_in_Markup/" />
+      </siteMapNode>
+      <siteMapNode title="CardLayout&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Layout/CardLayout/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="CenterLayout">
+        <siteMapNode title="Basic" description="No description" url="~/Examples/Layout/CenterLayout/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="ColumnLayout&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Layout/ColumnLayout/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="Fitlayout">
+        <siteMapNode title="Basic" description="No description" url="~/Examples/Layout/Fitlayout/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="FormLayout">
+        <siteMapNode title="Basic" description="No description" url="~/Examples/Layout/FormLayout/Basic/" />
+        <siteMapNode title="Login" description="No description" url="~/Examples/Layout/FormLayout/Login/" />
+        <siteMapNode title="Overview" description="No description" url="~/Examples/Layout/FormLayout/Overview/" />
+        <siteMapNode title="With UserControls" description="No description" url="~/Examples/Layout/FormLayout/With_UserControls/" />
+      </siteMapNode>
+      <siteMapNode title="RowLayout">
+        <siteMapNode title="Basic" description="No description" url="~/Examples/Layout/RowLayout/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="TableLayout">
+        <siteMapNode title="Simple in CodeBehind" description="No description" url="~/Examples/Layout/TableLayout/Simple_in_CodeBehind/" />
+        <siteMapNode title="Simple in Markup" description="No description" url="~/Examples/Layout/TableLayout/Simple_in_Markup/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="MessageBox&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="ButtonsConfig&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/MessageBox/Basic/ButtonsConfig/" />
+        <siteMapNode title="Overview&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/MessageBox/Basic/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Miscellaneous&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="History&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Miscellaneous/History/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="Locale&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Miscellaneous/Locale/Basic/" />
+        <siteMapNode title="Predefined Language&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Miscellaneous/Locale/Predefined_Language/" />
+        <siteMapNode title="User Language&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Miscellaneous/Locale/User_Language/" />
+      </siteMapNode>
+      <siteMapNode title="ProgressBar&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Client side update&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Miscellaneous/ProgressBar/Client_side_update/" />
+        <siteMapNode title="Server side update&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Miscellaneous/ProgressBar/Server_side_update/" />
+      </siteMapNode>
+      <siteMapNode title="Resizable">
+        <siteMapNode title="Basic" description="No description" url="~/Examples/Miscellaneous/Resizable/Basic/" />
+      </siteMapNode>
+      <siteMapNode title="Slider">
+        <siteMapNode title="Overview" description="A slider component that supports vertical mode, snapping, tooltips, customized styles and more." url="~/Examples/Miscellaneous/Slider/Overview/" />
+      </siteMapNode>
+      <siteMapNode title="Spotlight&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Ajax Overview&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="A control for masking everything except a single element on the page to visually highlight it." url="~/Examples/Miscellaneous/Spotlight/Ajax_Overview/" />
+        <siteMapNode title="Overview&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="A control for masking everything except a single element on the page to visually highlight it." url="~/Examples/Miscellaneous/Spotlight/Overview/" />
+      </siteMapNode>
+      <siteMapNode title="ToolTips">
+        <siteMapNode title="Overview" description="Various tooltip and quick tip configuration options including Ajax loading and mouse tracking." url="~/Examples/Miscellaneous/ToolTips/Overview/" />
+      </siteMapNode>
+      <siteMapNode title="XTemplate&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Overview&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="A simple example of rendering views from templates bound to data objects." url="~/Examples/Miscellaneous/XTemplate/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Notification&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Overview&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Notification/Basic/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Panel&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="AutoLoad" description="Demonstrates setting the .Html, .AutoLoad and .AutoLoadIFrame properties." url="~/Examples/Panel/Basic/AutoLoad/" />
+        <siteMapNode title="Deferred Loading&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/Panel/Basic/Deferred_Loading/" />
+        <siteMapNode title="FormGroup" description="Demonstrates setting the FormGroup property." url="~/Examples/Panel/Basic/FormGroup/" />
+      </siteMapNode>
+      <siteMapNode title="BodyMask">
+        <siteMapNode title="Custom Mask" description="Demonstrates how to show custom load mask while iframe loading." url="~/Examples/Panel/BodyMask/Custom_Mask/" />
+        <siteMapNode title="Standard Mask" description="Demonstrates how to show standart load mask while iframe loading." url="~/Examples/Panel/BodyMask/Standard_Mask/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Portal">
+      <siteMapNode title="Basic">
+        <siteMapNode title="Deluxe" description="Desmonstates multiple Portals within Tabs and using the Slate Theme." url="~/Examples/Portal/Basic/Deluxe/" />
+        <siteMapNode title="Simple" description="Demonstrates placing a separate Portal within each Tab of a TabPanel." url="~/Examples/Portal/Basic/Simple/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="PropertyGrid">
+      <siteMapNode title="Basic">
+        <siteMapNode title="Overview" description="A specialized grid implementation intended to mimic the traditional property grid" url="~/Examples/PropertyGrid/Basic/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="TabPanel">
+      <siteMapNode title="Basic">
+        <siteMapNode title="Add Tabs" description="No description" url="~/Examples/TabPanel/Basic/Add_Tabs/" />
+        <siteMapNode title="Advanced Tabs" description="The example demonstrating: dynamic code-behind creation, auto tab resizing, tab scrolling, tabs with icons, closable tabs" url="~/Examples/TabPanel/Basic/Advanced_Tabs/" />
+        <siteMapNode title="Ajax Load" description="Tabs with no tab strip and a fixed height that scroll the content." url="~/Examples/TabPanel/Basic/Ajax_Load/" />
+        <siteMapNode title="Auto Height" description="Tabs with auto height that resize to the content." url="~/Examples/TabPanel/Basic/Auto_Height/" />
+        <siteMapNode title="Grid As Tab" description="No description" url="~/Examples/TabPanel/Basic/Grid_As_Tab/" />
+        <siteMapNode title="Move Tabs" description="No description" url="~/Examples/TabPanel/Basic/Move_Tabs/" />
+        <siteMapNode title="Show Hide" description="No description" url="~/Examples/TabPanel/Basic/Show_Hide/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="TaskManager">
+      <siteMapNode title="Basic">
+        <siteMapNode title="Overview" description="Run timed tasks to fire client-side and server-side events." url="~/Examples/TaskManager/Basic/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Toolbar&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="Menu">
+        <siteMapNode title="Context Menu" description="No description" url="~/Examples/Toolbar/Menu/Context_Menu/" />
+        <siteMapNode title="Controls In Menu" description="No description" url="~/Examples/Toolbar/Menu/Controls_In_Menu/" />
+        <siteMapNode title="MenuPanel" description="No description" url="~/Examples/Toolbar/Menu/MenuPanel/" />
+        <siteMapNode title="Overview" description="No description" url="~/Examples/Toolbar/Menu/Overview/" />
+        <siteMapNode title="Toolbar with Menus" description="No description" url="~/Examples/Toolbar/Menu/Toolbar_with_Menus/" />
+      </siteMapNode>
+      <siteMapNode title="StatusBar&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Advanced&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="This is an advanced example of customizing an Ext.StatusBar via a plugin." url="~/Examples/Toolbar/StatusBar/Advanced/" />
+        <siteMapNode title="Overview" description="No description" url="~/Examples/Toolbar/StatusBar/Overview/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="TreePanel&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+      <siteMapNode title="Basic&lt;span&gt;&amp;nbsp;&lt;/span&gt;">
+        <siteMapNode title="Built in CodeBehind" description="No description" url="~/Examples/TreePanel/Basic/Built_in_CodeBehind/" />
+        <siteMapNode title="Built in Markup" description="No description" url="~/Examples/TreePanel/Basic/Built_in_Markup/" />
+        <siteMapNode title="Refresh Static Tree&lt;span&gt;&amp;nbsp;&lt;/span&gt;" description="No description" url="~/Examples/TreePanel/Basic/Refresh_Static_Tree/" />
+        <siteMapNode title="SiteMap" description="No description" url="~/Examples/TreePanel/Basic/SiteMap/" />
+      </siteMapNode>
+      <siteMapNode title="Loaders">
+        <siteMapNode title="Ajax Method Loader" description="No description" url="~/Examples/TreePanel/Loaders/Ajax_Method_Loader/" />
+        <siteMapNode title="PageTreeLoader" description="No description" url="~/Examples/TreePanel/Loaders/PageTreeLoader/" />
+        <siteMapNode title="Using Handler" description="No description" url="~/Examples/TreePanel/Loaders/Using_Handler/" />
+        <siteMapNode title="WebServiceTreeLoader" description="No description" url="~/Examples/TreePanel/Loaders/WebServiceTreeLoader/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="ViewPort">
+      <siteMapNode title="Basic">
+        <siteMapNode title="Built in CodeBehind" description="ViewPort dynamically built using code-behind C#." url="~/Examples/ViewPort/Basic/Built_in_CodeBehind/" />
+        <siteMapNode title="Built in Markup" description="ViewPort built using markup tag syntax." url="~/Examples/ViewPort/Basic/Built_in_Markup/" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Window">
+      <siteMapNode title="Basic">
+        <siteMapNode title="AutoLoad Website" description="Load an external url into a Window using the AutoLoad property." url="~/Examples/Window/Basic/AutoLoad_Website/" />
+        <siteMapNode title="Hello World" description="This example demonstrates how to create a Window and have the Window show when the Page first loads." url="~/Examples/Window/Basic/Hello_World/" />
+        <siteMapNode title="Nested Panel" description="This example demonstrates how to create a Window with nested control and content." url="~/Examples/Window/Basic/Nested_Panel/" />
+        <siteMapNode title="Show" description="Several client-side and server-side techniques for triggering the &amp;lt;ext:Window&gt; to &quot;show&quot; if hidden." url="~/Examples/Window/Basic/Show/" />
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

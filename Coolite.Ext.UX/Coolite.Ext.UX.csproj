@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDD0C665-5685-4177-98E6-64D952E4463B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Coolite.Ext.UX</RootNamespace>
+    <AssemblyName>Coolite.Ext.UX</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d31d9b795d1d0dc3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Coolite.Ext.Web\Build\Resources\ReferenceAssemblies\Newtonsoft.Json\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions\GMapPanel\CenterMarker.cs" />
+    <Compile Include="Extensions\GMapPanel\GMapPanel.cs" />
+    <Compile Include="Extensions\GMapPanel\GMapPanelBase.cs" />
+    <Compile Include="Extensions\GMapPanel\GMapType.cs" />
+    <Compile Include="Extensions\GMapPanel\MapConfiguration.cs" />
+    <Compile Include="Extensions\GMapPanel\MapPropertiesJsonConverter.cs" />
+    <Compile Include="Extensions\GMapPanel\MapControls.cs" />
+    <Compile Include="Extensions\GMapPanel\Marker.cs" />
+    <Compile Include="Extensions\GMapPanel\MarkerAjaxEvents.cs" />
+    <Compile Include="Extensions\GMapPanel\MarkerListeners.cs" />
+    <Compile Include="Extensions\GMapPanel\MarkerOptions.cs" />
+    <Compile Include="Plugins\InputTextMask\InputTextMask.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Plugins\InputTextMask\resources\InputTextMask.js" />
+    <EmbeddedResource Include="Extensions\GMapPanel\resources\GMapPanel.js" />
+    <EmbeddedResource Include="Build\Resources\ToolboxIcons\Plugin.bmp" />
+    <EmbeddedResource Include="Extensions\GMapPanel\GMapPanel.bmp" />
+    <EmbeddedResource Include="Plugins\InputTextMask\InputTextMask.bmp" />
+    <Content Include="Build\ReferenceAssemblies\README.txt" />
+    <Content Include="Build\Resources\Templates\Copyright - LGPL3.txt" />
+    <Content Include="Extensions\GMapPanel\LICENSE.txt" />
+    <Content Include="Extensions\GMapPanel\README.txt" />
+    <Content Include="LICENSE.txt" />
+    <Content Include="Plugins\InputTextMask\LICENSE.txt" />
+    <Content Include="Plugins\InputTextMask\README.txt" />
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Coolite.Ext.Web\Coolite.Ext.Web.csproj">
+      <Project>{195F2E70-F5E6-4A61-AAD9-2639657C29C4}</Project>
+      <Name>Coolite.Ext.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coolite.Utilities\Coolite.Utilities.csproj">
+      <Project>{5E459B57-416E-4644-9A2F-5668974ED994}</Project>
+      <Name>Coolite.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\GMapPanel\resources\css\" />
+    <Folder Include="Extensions\GMapPanel\resources\images\" />
+    <Folder Include="Plugins\InputTextMask\resources\css\" />
+    <Folder Include="Plugins\InputTextMask\resources\images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
