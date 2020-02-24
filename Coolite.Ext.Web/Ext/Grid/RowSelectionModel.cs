@@ -144,27 +144,23 @@ namespace Coolite.Ext.Web
         {
             get
             {
-                if (this.SelectedRows.Count > 0)
+                if (this.SingleSelect)
                 {
-                    return this.SelectedRows[0];
+                    if (this.SelectedRows.Count > 0)
+                    {
+                        return this.SelectedRows[0];
+                    }
                 }
                 return null;
 
             }
             set
             {
-                foreach (var selectedrow in this.SelectedRows)
-                {
-                    if (selectedrow.RowIndex == value.RowIndex)
-                    {
-                        return;
-                    }
-                }
                 if (this.SingleSelect)
                 {
                     this.SelectedRows.Clear();
+                    this.SelectedRows.Add(value);
                 }
-                this.SelectedRows.Add(value);
             }
         }
 
@@ -172,27 +168,23 @@ namespace Coolite.Ext.Web
         {
             get
             {
-                if(this.SelectedRows.Count > 0)
+                if(this.SingleSelect)
                 {
-                    return this.SelectedRows[0].RowIndex;
+                    if(this.SelectedRows.Count > 0)
+                    {
+                        return this.SelectedRows[0].RowIndex;
+                    }
                 }
                 return -1;
                 
             }
             set
             {
-                foreach(var selectedrow in this.SelectedRows)
-                {
-                    if(selectedrow.RowIndex == value)
-                    {
-                        return;
-                    }
-                }
                 if(this.SingleSelect)
                 {
                     this.SelectedRows.Clear();
+                    this.SelectedRows.Add(new SelectedRow(value));
                 }
-                this.SelectedRows.Add(new SelectedRow(value));
             }
         }
 
@@ -200,90 +192,26 @@ namespace Coolite.Ext.Web
         {
             get
             {
-                if (this.SelectedRows.Count > 0)
+                if (this.SingleSelect)
                 {
-                    return this.SelectedRows[0].RecordID;
+                    if (this.SelectedRows.Count > 0)
+                    {
+                        return this.SelectedRows[0].RecordID;
+                    }
                 }
                 return "";
+
             }
             set
             {
-                foreach (var selectedrow in this.SelectedRows)
-                {
-                    if (selectedrow.RecordID == value)
-                    {
-                        return;
-                    }
-                }
                 if (this.SingleSelect)
                 {
                     this.SelectedRows.Clear();
-                }
-                this.SelectedRows.Add(new SelectedRow(value));
-            }
-        }
-
-        public List<string> SelectedRecordIDs
-        {
-            get
-            {
-                List<string> lst = new List<string>();
-                foreach (var selectedrow in this.SelectedRows)
-                {
-                    lst.Add(selectedrow.RecordID);
-                }
-                return lst;
-            }
-            set
-            {
-                this.SelectedRows.Clear();
-                if (value.Count > 0)
-                {
-                    if (this.SingleSelect)
-                    {
-                        this.SelectedRows.Add(new SelectedRow(value[0]));
-                    }
-                    else
-                    {
-                        foreach(string recordid in value)
-                        {
-                            this.SelectedRows.Add(new SelectedRow(recordid));
-                        }
-                    }
+                    this.SelectedRows.Add(new SelectedRow(value));
                 }
             }
         }
 
-        public List<int> SelectedIndexs
-        {
-            get
-            {
-                List<int> lst = new List<int>();
-                foreach (var selectedrow in this.SelectedRows)
-                {
-                    lst.Add(selectedrow.RowIndex);
-                }
-                return lst;
-            }
-            set
-            {
-                this.SelectedRows.Clear();
-                if (value.Count > 0)
-                {
-                    if (this.SingleSelect)
-                    {
-                        this.SelectedRows.Add(new SelectedRow(value[0]));
-                    }
-                    else
-                    {
-                        foreach (int recordid in value)
-                        {
-                            this.SelectedRows.Add(new SelectedRow(recordid));
-                        }
-                    }
-                }
-            }
-        }
 
         /*  Public Methods
             -----------------------------------------------------------------------------------------------*/

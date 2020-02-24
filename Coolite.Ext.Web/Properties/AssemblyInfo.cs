@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Web.UI;
 
-[assembly: AssemblyVersion("0.8.2.2648")]
+[assembly: AssemblyVersion("0.8.2.*")]
 [assembly: TagPrefix("Coolite.Ext.Web", "ext")]
 
 [assembly: AssemblyTitle("Coolite Toolkit for ASP.NET")]

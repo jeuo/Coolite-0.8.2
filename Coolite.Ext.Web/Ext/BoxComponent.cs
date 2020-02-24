@@ -256,7 +256,7 @@ namespace Coolite.Ext.Web
         [Description("Sets the current box measurements of the component's underlying element.")]
         public virtual void UpdateBox(int x, int y, int width, int height)
         {
-            this.AddScript("{0}.updateBox({{x:{1},y:{2},width:{3},height:{4}}});", this.ClientID, x, y, width, height);
+            this.AddScript("{0}.updateBox({{x:{1},y:{2},width:{3},height{4}}});", this.ClientID, x, y, width, height);
         }
 
         /// <summary>
