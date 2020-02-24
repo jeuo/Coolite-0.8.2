@@ -85,8 +85,8 @@ if(Ext.DatePicker){
 
 if(Ext.PagingToolbar){
    Ext.apply(Ext.PagingToolbar.prototype, {
-      beforePageText : "页",
-      afterPageText  : "页共 {0} 页",
+      beforePageText : "第",
+      afterPageText  : "页，共 {0} 页",
       firstText      : "第一页",
       prevText       : "前一页",
       nextText       : "下一页",
