@@ -31,7 +31,7 @@ namespace Coolite.Ext.Web
                         base.Add(new RecordField(parts[0], (RecordFieldType)Enum.Parse(typeof(RecordFieldType), StringUtils.ToTitleCase(parts[1]))));
                         return;
                     }
-                    catch (ArgumentException ex) 
+                    catch (ArgumentException) 
                     {
                         throw new ArgumentException("The RecordFieldType of \"" + parts[1] + "\" was not found");
                     }

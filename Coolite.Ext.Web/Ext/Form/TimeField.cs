@@ -142,7 +142,7 @@ namespace Coolite.Ext.Web
                             DateTime postedValue = DateTime.ParseExact(init.ToString(), this.Format, System.Threading.Thread.CurrentThread.CurrentCulture.DateTimeFormat);
                             this.SelectedTime = postedValue.TimeOfDay;
                         }
-                        catch (FormatException ex)
+                        catch (FormatException)
                         {
                             this.SelectedTime = TimeSpan.Parse(init.ToString());
                         }
@@ -416,9 +416,6 @@ namespace Coolite.Ext.Web
         {
             this.AddScript("this.{0}.setValue({1});", this.ClientID, new DateTime(time.Ticks).ToString(this.Format, System.Threading.Thread.CurrentThread.CurrentCulture));
         }
-
-        internal void SetTimeValue(object time) { }
-
 
         /*  Hidden
             -----------------------------------------------------------------------------------------------*/
